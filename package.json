@@ -1,0 +1,17 @@
+{
+  "name": "habit-flow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full stack habit and daily goal tracker with React, Express and SQLite",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "install:all": "npm install && npm --prefix backend install && npm --prefix frontend install",
+    "build": "npm --prefix frontend run build",
+    "start": "npm run build && npm --prefix backend start",
+    "test": "npm --prefix backend test",
+    "test:api": "npm --prefix backend test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
